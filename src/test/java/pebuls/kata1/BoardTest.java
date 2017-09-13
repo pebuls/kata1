@@ -43,7 +43,6 @@ public class BoardTest {
 
         Board board = new Board();
         board.addCell(new Cell(0, 0));
-        board.addCell(new Cell(0, 100));
 
         List<Cell> neighbors = board.getNeighbors(new Cell(0, 0));
 
